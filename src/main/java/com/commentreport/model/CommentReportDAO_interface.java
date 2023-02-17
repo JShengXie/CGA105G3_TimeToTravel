@@ -14,3 +14,4 @@ public interface CommentReportDAO_interface {
 	
 	public void insert(CommentReportVO commentReportVO);
 }
+
