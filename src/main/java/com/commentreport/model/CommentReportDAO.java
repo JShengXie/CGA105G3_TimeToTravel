@@ -24,6 +24,7 @@ public class CommentReportDAO implements CommentReportDAO_interface {
 			e.printStackTrace();
 		}
 	}
+	//git藏在這裡
 	/* Prepare SQL Statement */
 	private static final String GET_ALL_STMT = "select*from COMMENT_REPORT";
 	private static final String FINDBYID_STMT ="select*from COMMENT_REPORT where COMMENT_REPORT_ID=?";
